@@ -34,7 +34,7 @@ const Formulario = ({ busqueda, guardarBusqueda, guardarConsultar }) => {
 	};
 	return (
 		<Fragment>
-			<form onSubmit={handleSubmit} autoComplete="on">
+			<form onSubmit={handleSubmit}>
 				{error ? (
 					<Error mensaje="Todos los campos son obligatorios" />
 				) : null}
